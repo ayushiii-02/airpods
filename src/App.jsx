@@ -2,6 +2,7 @@ import React from "react";
 import AirpodsNavbar from "./components/AirpodsNavbar";
 import Home from "./components/Home";
 import Features from "./components/Features";
+import HowItWorks from "./components/HowItWorks";
 import Vid from "./components/Vid";
 import AirpodsShowcase from "./components/AirPodsShowcase";
 import Headphones from "./components/Headphones";
@@ -15,6 +16,7 @@ function App() {
       {/* Other components go here */}
       <Home />
       <Features />
+      <HowItWorks />
       <Vid />
       <AirpodsShowcase />
       <Headphones />
